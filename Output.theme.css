@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+
+:root {
+--text-color: 189, 138, 16;
+--background: 0, 0, 0;
+--highlight: 189, 138, 16;
+}
+
+/* VERSION INFO */
+.info__2debe:last-child::after {
+  content: "Aperture Terminal 1.0.2";
+  font-family: 'Courier Prime';
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--highlight);
+}
+/* VERSION INFO */
+
+/* --== Change font ==-- */
+html, body {
+  font-family: 'Courier Prime';
+  
+}
+
+/* --== Add CRT effect ==-- */
+html,body::before, .root__5c9fc::before,
+.standardSidebarView__23e6b::before, .userPopout-2j1gM4::before,
+.inner-1ilYF7::before, .container-1Lk8p7::before, .resultsGroup__56fec::before,
+.theme-dark .root__49fc1::after, .container__9293f.themed__9293f::after,
+.drawerSizingWrapper__08434::after, .layer-2aCOJ3::after, .container__9293f::after,
+.quickswitcher_ac6cb0::after, .wrapper-3ByaVZ::after, .form__468a6::after,
+.autocompleteInner__13533::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+/* --== Make sure the BetterDiscord version is readable ==-- */
+.colorMuted-20987_ {
+  color: var(--text-color);
+}
+
+/* --== Make sure everything's still clickable ==-- */
+body *, .userPopout-3XzG_A * {
+  pointer-events: auto;
+}
+
+/* --== Okay maybe not everything... ==-- */
+.target_d144f8, .centerTarget_d144f8,
+.spoilerText-27bIiA.hidden-3B-Rum .inlineContent-2YnoDy .wrapper_d4fa29,
+.layer-1Ixpg3, .cannonWrapper-3dB5_m, .cannon-3uTo6m,
+.cannonWrapper__9f20a, .cannon_fa8354 {
+  pointer-events: none !important;
+}
+
+.autoPointerEvents_d144f8 {
+  pointer-events: auto !important;
+}
+
+.hidden_d4ced7 {
+  display: none;
+}
+
+/* Add custom title! */
+.wordmarkWindows__421ed svg {
+  width: 0px;
+}
+
+.wordmarkWindows__421ed::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://raw.githubusercontent.com/hellobeees/gpr82/main/gpr_titl.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 240px !important;
+  height: 14px !important;
+}
+
+/* --== Styling the weird "Connect PlayStation Network" popout ==-- */
+.container-xB0xPf {
+  background-color: var(--background);
+}
+
+.pointer-1j6vDv {
+  display: none;
+}
+
+.layerContainer-2v_Sit > .layer-2aCOJ3::after {
+  display: none;
+}
+
+/* (This means no CRT effect on that popout for now, as it is weirdly shaped and screws with the effect) */
+
+/* --== Styling custom User Popouts ==-- */
+
+.popoutBanner_c3e427 {
+  height: 120px;
+}
+
+.userPopout-2j1gM4 {
+	--USRBG-banner-height: 120px;
+}
+
+.avatarWrapperNormal_f89da9 {
+  top: 76px;
+}
+
+.newMessagesBar__0f481 {
+  background-color: var(--highlight);
+}
+
+.newMessagesBar__0f481 * {
+  color: var(--background);
+}
+
+/* --== Fix the "Delete Message?" popout ==-- */
+.message__89466 {
+  background-color: var(--background) !important;
+}
+
+/* --== Style the unread message bar ==-- */
+.isUnread__908e2 {
+  border-color: var(--highlight);
+}
+
+.isUnread__908e2 .content__908e2 {
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+}
+
+.wrapper__2ea32:hover > .unread__2ea32 {
+  background-color: var(--highlight);
+}
+
+.unreadPill__908e2 {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.guildSeparator-33mFX6 {
+  background-color: var(--highlight);
+  border-radius: 2px;
+}
+
+.unreadPillCapStroke__908e2 {
+  color: var(--highlight);
+  fill: var(--highlight);
+}
+
+.bar__3b95d {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+/* --== Re-color blue/gray button(s) ==-- */
+.lookFilled-yCfaCM.colorBrand-I6CyqQ,
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
+  background-color: var(--background);
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+  transition-duration: .3s;
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
+  color: var(--highlight);
+}
+
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo:hover > div {
+  background-image: linear-gradient(0deg,transparent,transparent 1px,var(--highlight) 0,var(--highlight) 2px,transparent 0) !important;
+}
+
+/* --== Style home button ==-- */
+.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15, .wrapper__8436d:hover .childWrapper_a6ce15 {
+  background-color: var(--highlight);
+}
+
+.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 svg path, .wrapper__8436d:hover .childWrapper_a6ce15 svg path {
+  fill: var(--background);
+}
+
+.homeIcon-FuNwkv path {
+  fill: var(--highlight);
+}
+
+/* --== Style GIF Picker text's ==-- */
+
+.theme-dark .categoryText-2i9GtE, .theme-light .categoryText-2i9GtE  *{
+  color: var(--highlight);
+}
+
+/* --== Style codeblocks and Markdown notation in Chat inputbox ==-- */
+.codeBlockSyntax-2MZ-Qy, .syntaxAfter_ada32f, .syntaxBefore_ada32f {
+  color: var(--highlight);
+}
+
+/* --== Style "Create Server" popout ==-- */
+.markup__75297 code {
+  border: 1px solid var(--highlight);
+}
+
+.colorHeaderPrimary-jN_yGr {
+  color: var(--highlight);
+}
+
+.root__49fc1, .theme-light .footer-31IekZ {
+  background-color: var(--background) !important;
+}
+
+/* --== Style server explorer ==-- */
+.scroller-3j5xK2 {
+  background-color: var(--background);
+}
+
+.notice_c5cd6a {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style Server Boost/Friends page ==-- */
+.closeWrapper-9ScmSq, .theme-dark .perksModal-CLcR1c, .peopleList__5ec2f, .peopleColumn__133bf {
+  background-color: var(--background);
+}
+
+.container__9293f {
+  background-color: var(--background) !important;
+}
+
+/* --== Style the emoji-autocomplete window ==-- */
+.autocompleteInner__13533 {
+  background-color: var(--background);
+}
+
+.selected-3H3-RC {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style trust this link popout ==-- */
+.form__468a6 > div {
+  background-color: var(--background) !important;
+}
+
+/* --== Style the user popout ==-- */
+.userPopout-3XzG_A {
+  margin-right: 1vw;
+  border: 1px solid var(--highlight);
+}
+
+.headerPlaying-j0WQBV, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
+.headerTop-3C2Zn0 {
+  background-color: var(--background);
+}
+
+.input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
+  border: 1px solid var(--highlight);
+}
+
+.header-QKLPzZ {
+  background-color: var(--background);
+}
+
+.headerFill-adLl4x {
+  background-color: var(--background);
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79, .lookInverted-2mDUMi.colorBrand-I6CyqQ {
+  background-color: var(--background);
+  color: var(--highlight);
+  transition-duration: .3s;
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+/* --== Style search popout ==-- */
+.input_ac6cb0 {
+  background-color: var(--background);
+}
+
+.inner-1ilYF7 * {
+  font-family: 'Courier Prime';
+}
+
+.resultsGroup__56fec {
+  background-color: var(--background);
+}
+
+.resultsGroup__56fec * {
+  color: var(--highlight) !important;
+}
+
+.option__56fec:after {
+  display: none;
+}
+
+.queryContainer__55c99 {
+  background-color: var(--background) !important;
+  color: var(--highlight) !important;
+}
+
+/* --== Style "Reactions" popout ==-- */
+.theme-dark .container_cc2dff, .theme-dark .reactors_cc2dff, .theme-dark .scroller_cc2dff {
+  background-color: var(--background);
+}
+
+/* --== Style in-server stream previews ==-- */
+.body__6da2d {
+  background-color: var(--background);
+}
+
+.button__6e0e0 {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight) !important;
+  color: var(--highlight) !important;
+}
+
+.button__6e0e0:hover {
+  background-color: var(--highlight) !important;
+  color: var(--background) !important;
+}
+
+/* --== Style payment page ==-- */
+.theme-dark .paymentPane__01014 div, .theme-dark .codeRedemptionRedirect-3SBiCp {
+  background-color: var(--background);
+}
+
+/* --== Style audio/video settings ==-- */
+.css-1ye7vu0, .horizontal__7c0ba>.flex__7c0ba:last-child, .horizontal__7c0ba>.flexChild__7c0ba:last-child {
+  background-color: var(--background);
+}
+
+/* --== Style "activity" settings ==-- */
+.theme-dark .notDetected-2HEmAp, .theme-light .notDetected-2HEmAp,
+.theme-dark .addGamePopout-3yePJc {
+  background-color: var(--background);
+}
+
+/* --== Style color picker ==-- */
+.theme-dark .colorPickerCustom-1swUKF {
+  background-color: var(--background);
+}
+
+/* --== Style phonenumber input ==-- */
+.theme-dark .elevationBorderLow__2b2f1 {
+  background-color: var(--background);
+}
+
+/* --== Style create DM Group ==-- */
+.nameTag__05e81 {
+  color: var(--highlight);
+}
+
+/* --== Style Keyboard shortcuts modal ==-- */
+.theme-dark .keyboardShortcutsModal_f061f6 {
+  background-color: var(--background);
+}
+
+/* --== Style boost server plus and minus buttons ==-- */
+.theme-dark .iconWrapper__0d13e {
+  background-color: var(--background);
+}
+
+/* --== Style custom emoji upload page ==-- */
+.theme-dark .card_b846e5:before, .emojiRow-zIc7ZX:focus-within .emojiRemove-1k6MlJ, .emojiRow-zIc7ZX:hover .emojiRemove-1k6MlJ,
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+  background-color: var(--background);
+}
+
+/* --== Style datepicker I suppose? Why is this stuff so convoluted?! ==-- */
+.theme-dark .calendarPicker_d27f17 .react-datepicker,
+.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8,
+.theme-dark .datePicker-70cO23,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__current-month,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__header,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled:hover,
+.datePicker-70cO23 .datePickerHint-17MnA8 .hint-3D5yHh {
+  background-color: var(--background);
+}
+
+/* --== Style upload modal ==-- */
+.uploadModal_dbca3c .inner_dbca3c, .theme-dark .uploadModal_dbca3c, .uploadModal_dbca3c .footer_dbca3c.hasSpoilers_dbca3c {
+  background-color: var(--background);
+}
+
+/* --== Style search panel ==-- */
+.theme-dark .focused__55c99 {
+  background-color: var(--background);
+}
+
+/* --== Style "Connected apps" info ==-- */
+.formNotice-2nS8ey {
+  background-color: var(--background);
+}
+
+/* --== Style Invite friends to this server modal ==-- */
+.modal-atz_3z > div {
+  background-color: var(--background) !important;
+}
+
+.colorStandard-21JIj7 {
+  color: var(--highlight) !important;
+}
+
+.copyButton-2k4drX, .inviteRowButton-3hcOhY {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+  color: var(--highlight) !important;
+}
+
+.copyButton-2k4drX:hover, .inviteRowButton-3hcOhY:hover {
+  background-color: var(--highlight) !important;
+  color: var(--background) !important;
+}
+
+.input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
+  border: none;
+}
+
+.theme-dark .checkBoxLabel-16BK2g, .theme-dark .footerText-2QLGHU, .theme-dark .subText-1CcYgq {
+  color: var(--highlight);
+}
+
+/* --== Style custom status ==-- */
+.theme-dark .footer-31IekZ {
+  background-color: var(--background);
+}
+
+/* --== Hotfix for the channel hashtags ==-- */
+.icon__2ea32 {
+  color: var(--highlight) !important;
+}
+
+/* --== Hotfix for discords stupid "party mode" ==-- */
+.layerContainer-2v_Sit > *, .enableAnimation_f8824b, .enableAnimation_f8824b > * {
+  pointer-events: none;
+}
