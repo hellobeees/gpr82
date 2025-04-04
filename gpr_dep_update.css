@@ -11,7 +11,7 @@
 /* VERSION INFO */
 .info-3pQQBb:last-child::after {
   content: "Aperture Terminal 1.0.2";
-  font: var(--font-primary);
+  font: 'Courier Prime';
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -20,7 +20,7 @@
 
 /* --== Change font ==-- */
 html, body {
-  font-family: var(--font-primary);
+  font-family: 'Courier Prime';
 }
 
 /* --== Add CRT effect ==-- */
@@ -298,7 +298,7 @@ body *, .userPopout-3XzG_A * {
 }
 
 .inner-1ilYF7 * {
-  font-family: var(--font-primary);
+  font-family: 'Courier Prime';
 }
 
 .resultsGroup-cfY57t {
