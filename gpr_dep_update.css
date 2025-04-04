@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 
-:root
+:root {
+--text-color: 189, 138, 16;
+--font-primary: 'Courier Prime';
+--background: 0, 0, 0;
+--highlight: 189, 138, 16;
+}
 
 /* VERSION INFO */
 .info-3pQQBb:last-child::after {
