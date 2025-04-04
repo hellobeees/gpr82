@@ -21,7 +21,7 @@
 
 /* --== Change font ==-- */
 html, body {
-  font: var(--font-primary);
+  font: 'Courier Prime';
   
 }
 
