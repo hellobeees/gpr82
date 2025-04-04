@@ -438,7 +438,7 @@ body *, .userPopout-3XzG_A * {
 }
 
 .theme-dark .checkBoxLabel-16BK2g, .theme-dark .footerText-2QLGHU, .theme-dark .subText-1CcYgq {
-  color: var(--highlight);
+  color: var(--background);
 }
 
 /* --== Style custom status ==-- */
@@ -457,11 +457,3 @@ body *, .userPopout-3XzG_A * {
 }
 
 
-  /* Emotes menu after clicking on message */
-  .wrapper_c0e32c .emojiPicker_c0e32c,
-  .wrapper_c0e32c .header_c0e32c,
-  .wrapper_c0e32c .unicodeShortcut_b9ee0c,
-  .wrapper_c0e32c .header_c656ac,
-  .scroller_affa7e {
-    background: var(--text-color);
-  }
