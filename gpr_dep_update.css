@@ -7,6 +7,12 @@
 --highlight: 189, 138, 16;
 }
 
+/* Reaction emote background */
+.chatContent_f75fb0 .container_b7e1cb .reaction_f8896c {
+  background: #ffffff;
+}
+
+
 /* VERSION INFO */
 .info-3pQQBb:last-child::after {
   content: "Aperture Terminal 1.0.2";
