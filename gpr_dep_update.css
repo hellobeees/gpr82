@@ -323,6 +323,11 @@ body *, .userPopout-3XzG_A * {
   background-color: var(--background);
 }
 
+/* --== Style "Reactions" number ==-- */
+.reaction_fef95b {
+  color: #000000 !important;
+}
+
 /* --== Style in-server stream previews ==-- */
 .body-2WIpo7 {
   background-color: var(--background);
