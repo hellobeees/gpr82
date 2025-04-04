@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 
 :root
 
@@ -13,7 +14,7 @@
 
 /* --== Change font ==-- */
 html, body {
-  font-family: 'Courier Prime', monospace;
+  font-family: 'Courier Prime';
 }
 
 /* --== Add CRT effect ==-- */
@@ -291,7 +292,7 @@ body *, .userPopout-3XzG_A * {
 }
 
 .inner-1ilYF7 * {
-  font-family: 'Courier Prime', monospace;
+  font-family: 'Courier Prime';
 }
 
 .resultsGroup-cfY57t {
