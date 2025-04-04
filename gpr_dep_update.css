@@ -456,7 +456,12 @@ body *, .userPopout-3XzG_A * {
   pointer-events: none;
 }
 
-/* Reaction emote background */
-.reactionSelected_cc2dff {
-  background: #ffffff;
-}
+
+  /* Emotes menu after clicking on message */
+  .wrapper_c0e32c .emojiPicker_c0e32c,
+  .wrapper_c0e32c .header_c0e32c,
+  .wrapper_c0e32c .unicodeShortcut_b9ee0c,
+  .wrapper_c0e32c .header_c656ac,
+  .scroller_affa7e {
+    background: var(--text-color);
+  }
