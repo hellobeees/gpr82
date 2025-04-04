@@ -438,7 +438,7 @@ body *, .userPopout-3XzG_A * {
 }
 
 .theme-dark .checkBoxLabel-16BK2g, .theme-dark .footerText-2QLGHU, .theme-dark .subText-1CcYgq {
-  color: var(--background);
+  color: var(--highlight);
 }
 
 /* --== Style custom status ==-- */
