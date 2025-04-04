@@ -455,15 +455,3 @@ body *, .userPopout-3XzG_A * {
 .layerContainer-2v_Sit > *, .enableAnimation-1SgROG, .enableAnimation-1SgROG > * {
   pointer-events: none;
 }
-
-  /* D+ badge in member list */
-.username__703b9:after {
-  content: var(--dplus-dev, var(--dplus-supporter));
-  background-image: var(--dplus-badge-memberlist);
-  margin-left: 3px;
-  display: inline-block;
-  width: 14px; height: 14px;
-}
-
-.theme-dark { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg"); }
-.theme-light { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg"); }
