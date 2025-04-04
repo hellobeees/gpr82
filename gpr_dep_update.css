@@ -20,7 +20,7 @@
 
 /* --== Change font ==-- */
 html, body {
-  font: 'Courier Prime';
+  font: var(--font-primary);
   
 }
 
